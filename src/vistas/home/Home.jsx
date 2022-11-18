@@ -22,12 +22,13 @@ const Home = () => {
        </div>
        <div className="text-discover">
        <h1 className="h1Discover">Discover new music</h1>
-       
+       <br/>
           <div>
           <img src={Microfone} alt="" width="50" />
           <img src={Albuns} alt="" width="50" />
           <img src={More} alt="" width="50" />
         </div>
+        <br/>
         <div>
         <p>By you can benefit by listening to the latest albums released</p>
         </div>
