@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/matriz.css'
+//import './styles/matriz.css'
+import "./index.css"
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

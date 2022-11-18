@@ -7,6 +7,7 @@ import {
 import Home from "./vistas/home/Home"
 import Discover from "./vistas/discover/Discover"
 import Join from "./vistas/join/Join"
+import './styles/matriz.css'
 
 
 function App() {

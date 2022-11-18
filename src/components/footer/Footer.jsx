@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/footer.css"
 import {Link} from "react-router-dom"
 import Twitter from "../../assets/twitter.svg";
 import Facebook from "../../assets/facebook.svg";
