@@ -1,0 +1,33 @@
+.header{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 60px;
+    background-color: var(--backgroundGeneral);
+}
+span{
+    color:white;
+    font-size: 1.2rem;
+}
+ul{
+    position: fixed;
+    top:0;
+    width:100%;
+}
+li{
+display:inline;
+width:10%;
+padding:5px 10px;
+background-color:var(--backgroundGeneral);
+border:1px solid (--backgroundGeneral);
+text-align:center;
+color:#fff;
+}
+span{
+    font-size:x-large;
+}
+

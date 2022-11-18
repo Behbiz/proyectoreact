@@ -1,0 +1,36 @@
+.home{
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imagen-home{
+    margin-left: 15%;
+    width:50%;
+    padding-top: 150px;
+    float:left;
+}
+.text-home{
+    color:white;
+    width:50%;
+    padding-top: 10%;
+    float:right;
+}
+h1,p{
+    font-family: var(--text-body);
+}
+.cercles {
+    position: relative;
+}
+.cercle {
+    position: absolute;
+    top: -150px;
+    left: 80px;
+    height: 80px;
+    width: 80px;
+    background-color: var(--cercle-1);
+    border-radius: 50%;
+    z-index: -1;
+}
+
