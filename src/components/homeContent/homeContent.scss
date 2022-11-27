@@ -1,0 +1,49 @@
+@import '../../app.scss';
+
+.homeContentContainer{
+    display: flex;
+    height: 60vh;
+    margin: 3rem;
+    justify-content: center;
+    align-items: center;
+}.title1{
+    color: $color-font-white;
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin: 0;
+}.paragaph1{
+    font-size: 1.1rem;
+    font-weight: 450;
+    color: $color-font-white;
+    
+}.buttonHome{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 6px;
+    background-color: $color-button;
+    border: 0;
+    color: $color-font-white;
+    font-family: 'Poppins';
+    font-size: 0.7rem;
+    width: 30%;
+}.photoHomeGirl{
+    display: none;
+    max-width: 70%;
+    max-height: 60%;
+}.homeMobilContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+};
+
+@media only screen and (min-width:950px) {
+    .photoHomeGirl{
+        display:block;
+    }
+    .homeContentContainer{
+        display: flex;
+        height: 88vh;
+        margin: 0 3rem 0 3rem;
+        align-items: flex-end;
+        justify-content: center;
+    }
+}

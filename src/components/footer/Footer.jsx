@@ -1,24 +1,37 @@
 import React from "react";
-import "../../styles/footer.css"
-import {Link} from "react-router-dom"
-import Twitter from "../../assets/twitter.svg";
-import Facebook from "../../assets/facebook.svg";
+import "./footer.scss";
+import TwitterIcon from "../../Assets/images/twitter.svg";
+import FacebookIcon from "../../Assets/images/facebook.svg";
 
-const Footer =() =>{
-    return (
-    <div ClassName="footer">
-        <div ClassName="about-contact">
-            <div>About Us</div>
-            <div>Contact</div>
+const Footer = () => {
+  return (
+    <>
+      <footer className="footerContainer">
+        <div className="contactContainer">
+          <a href="https://factoriaf5.org/">
+            <span>About Us</span>
+          </a>
+          <a href="https://factoriaf5.org/">
+            <span>Contact</span>
+          </a>
         </div>
-        <div ClassName="redSociales">
-            < Link to = ""><img src={Twitter} alt="" width="20px" /><span>Twitter</span></Link>
-            < Link to = ""><img src={Facebook} alt="" width="20px" /><span>Facebook</span></Link>
-        </div>      
-    </div>
-              
-    );
-} 
-
+        <div className="socialMedia">
+          <a href="https://twitter.com/?lang=es">
+            <div className="twitterContainer">
+              <img className="iconSocialMedia" src={TwitterIcon} alt="Twitter Icon" />
+              <span>Twitter</span>
+            </div>
+          </a>
+          <a href="https://www.facebook.com/factoriaf5/">
+            <div className="facebookContainer">
+              <img className="iconSocialMedia" src={FacebookIcon} alt="Facebook Icon" />
+              <span>Facebook</span>
+            </div>
+          </a>
+        </div>
+      </footer>
+    </>
+  );
+};
 
 export default Footer;

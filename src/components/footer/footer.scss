@@ -1,0 +1,47 @@
+@import '../../app.scss';
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    font-size: 0.9rem;
+
+}.footerContainer{
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins";
+    color: white;
+    font-weight: bold;
+    justify-content: space-evenly;
+
+}.contactContainer{
+    display: flex;
+    font-family: "Poppins";
+    align-items: flex-start;
+    gap: 0.5rem;
+    color: $color-font-white;
+   
+
+}.socialMedia{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+
+}.twitterContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}.facebookContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}.iconSocialMedia{
+    max-width: 15%;
+}

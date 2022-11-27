@@ -1,0 +1,64 @@
+@import '../../app.scss';
+
+.title2{
+    color: $color-font-white;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 0;
+}.paragraph2{
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: $color-font-white;
+    
+}.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+    
+}.iconButtons{
+    background: $color-dark-button;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0.6rem;
+    font-size: 0.9rem;
+    font-family: "Poppins";
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.3rem;
+
+}.iconImgs{
+    max-width: 50%;
+    
+}.coversImg{
+    max-width: 75%;
+
+}.discoverContentContainer{
+    margin: 0 3rem 0 3rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}.coversImgContainer{
+    display: flex;
+    justify-content: center;
+}.infoCoversContainer{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+};
+
+@media only screen and (min-width:950px){
+    .discoverContentContainer{
+        display: flex;
+        align-items: center;
+        height: 80vh;
+        flex-direction: row;
+    }
+    .coversImgContainer{
+        display: flex;
+        justify-content: center;
+        max-width: 40%;
+    }
+}

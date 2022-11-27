@@ -1,0 +1,28 @@
+@import '../../app.scss';
+
+.containerNav{
+    width: 100vw;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Poppins";
+    color: $color-font-white;
+    
+}.containerLogo{
+    display: flex;
+    font-family: "Poppins";
+    font-size: larger;
+    align-items: center;
+    gap: 1rem;
+    color: $color-font-white;
+    
+}.linkViews {
+    display: flex;
+    gap: 1rem;
+    color: $color-font-white;
+
+}
+
+
+
